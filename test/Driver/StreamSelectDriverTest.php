@@ -64,7 +64,7 @@ class StreamSelectDriverTest extends DriverTest
             // win FD_SETSIZE not 1024
             self::markTestSkipped('Skip on Windows');
         }
-        
+
         $sockets = [];
 
         for ($i = 0; $i < 1001; $i++) {
